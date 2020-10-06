@@ -1,0 +1,10 @@
+const firebaseConfig = {
+  apiKey: "your firebase api key",
+  authDomain: "your firebase auth domain",
+  databaseURL: "your firebase databaseURL",
+  projectId: "your firebase projectId",
+  storageBucket: "your firebase storageBucket",
+  messagingSenderId: "your firebase messagingSenderId",
+  appId: "your firebase appId",
+  measurementId: "your firebase measurementId"
+};

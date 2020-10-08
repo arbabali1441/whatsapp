@@ -19,7 +19,7 @@ function Chat() {
         <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
         
         <div className="chat__headerInfo">
-          <h3>Room name</h3>
+          <h3>Room name </h3>
           <p>Last seen at ...</p>
         </div>
 
@@ -37,7 +37,11 @@ function Chat() {
       </div>
 
       <div className="chat__body">
-      <p className="chat__message">Hey Guys</p>
+        <p className="chat__message">
+          <span className="chat__name">Arbab Ali</span>
+          Hey Guys
+          <span className="chat__timestamp">3:52pm</span>
+        </p>
       </div>
 
       <div className="chat__footer">

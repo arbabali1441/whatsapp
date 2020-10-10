@@ -18,7 +18,7 @@ function Login() {
           src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
           alt=""
         />
-        <div class="login__text">
+        <div className="login__text">
           <h1>Sign in to WhatsApp</h1>
         </div>
 
